@@ -12,13 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('pages.welcome');
-});
-
-Route::get('example', function() {
-    return view('pages.example');
-});
-
-Route::get('logout', function() {
-    return view('pages.logout');
+    return view('welcome');
 });
